@@ -22,10 +22,10 @@
     <header>
         <nav class="navbar">
             <a href="index.html" id="logo"><img src="assets/logo/Booki.png" alt="logo" class="logo"></a>
-            <div class="navbar_link" id="navbar_link_hebergement">
-                <a href="#blocs">Hébergement</a>
+            <div class="navbar_link" id="navbar_link_accomodations">
+                <a href="offers_blocs">Hébergement</a>
             </div>
-            <div class="navbar_link" id="navbar_link_activites">
+            <div class="navbar_link" id="navbar_link_activities">
                 <a href="#title-activities">Activités</a>
             </div>
         </nav>
@@ -35,38 +35,163 @@
 
     <!-- RESEARCH -->
     <main>
-        <div class="research_title">
-            <h1 class="main_title">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="subtitle">En plein centre de ville ou en pleine nature</p>
-        </div>
-
-        <div class="research_container">
-            <div class="icon_location">
-                <i class="fa-solid fa-location-dot"></i>
+        <section class="research">
+            <div class="research_title">
+                <h1 class="main_title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p class="subtitle">En plein centre de ville ou en pleine nature</p>
             </div>
-            <input type="text" placeholder="Marseille, France" class="research_bar">
-            <button class="research_button">Rechercher</button>
-        </div>
 
-        
-        <div class="filters">
-            <h3 class="second_title">Filtres</h3>
-            <ul class="filters-ul">
-                <li class="filters_cat"><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
-                <li class="filters_cat"><i class="fa-solid fa-person"></i>Familial</li>
-                <li class="filters_cat"><i class="fa-solid fa-heart"></i>Romantique</li>
-                <li class="filters_cat"><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
-            </ul>
-        </div>
+            <div class="research_container">
+                <div class="icon_location">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <input type="text" placeholder="Marseille, France" class="research_bar">
+                <button class="research_button">Rechercher</button>
+            </div>
 
-        <div class="info">
-            <i class="fa-light fa-circle-info"></i>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
             
+            <div class="filters">
+                <h3 class="filters_title">Filtres</h3>
+                <ul class="filters-ul">
+                    <li class="filters_cat"><i class="fa-solid fa-money-bill-wave"></i>Économique</li>
+                    <li class="filters_cat"><i class="fa-solid fa-person"></i>Familial</li>
+                    <li class="filters_cat"><i class="fa-solid fa-heart"></i>Romantique</li>
+                    <li class="filters_cat"><i class="fa-solid fa-dog"></i>Animaux autorisés</li>
+                </ul>
+            </div>
+
+            <div class="info">
+                <i class="fa-light fa-circle-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+            
+    <!-- OFFERS -->
+        <section class="offers_blocs">
+            <div class="accomodations_bloc">
+                <h2 class="section_title">Hébergements à Marseille</h2>
+                <div class="accomodation_cases">
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Auberge la Cannebière</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">25€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Hôtel du port</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">52€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hotel les mouettes">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Hôtel Les mouettes</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">52€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hotel de la mer">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Hôtel de la mer</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">46€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le panier">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Auberge Le Panier</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">23€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a> 
+
+                    <a href="#">
+                        <div class="accomodation_case">
+                            <div class="accomodation_case_img">
+                                <img class= "accomodation_case_img_host" src="assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hotel chez Amina">
+                            </div>
+                            <div class="accomodation_case_description">
+                                <h3 class="accomodation_name">Hôtel Chez Amina</h3>
+                                <p class="accomodation_hotel">Nuit à partir de <span class="accomodation_price">96€</span></p>
+                                <div class="accomodation_stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-duotone fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a> 
+
+
+        </section>    
+
         <section>
 
-            </section>
+        </section>
 
             <article>
 
