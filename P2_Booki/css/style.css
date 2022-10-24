@@ -343,6 +343,7 @@ ul {
   width: 100%;
   display: inline-block;
   margin: 0 9px;
+  max-width: 450px;
 }
 .activities_link:hover {
   box-shadow: 0 15px 25px var(--color-secondary-shadow),
