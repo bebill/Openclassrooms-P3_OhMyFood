@@ -1,13 +1,8 @@
 @media screen and (max-width: 992px) {
 
-  body {
-    font-size: 80%;
-  }
-
-
 
   .page_wrapper {
-    margin: 0 39px;
+    margin: 0 70px;
   }
 
   .research_input_text{
@@ -16,19 +11,13 @@
   .btn_text {
     padding: 18px;
   }
+
   .research_filters_list {
     margin-left: 10px;
   }
 
   .research_filters_cat {
-    border: 2px solid var(--color-border);
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: 700;
     margin: 3px;
-    padding: 10px 15px;
-    position: relative;
-    transition: all 0.4s;
   }
 
   .results {
@@ -39,53 +28,33 @@
     margin-right: 0;
   }
 
-  .accomodations_container {
-    justify-content: space-between;
-  }
-
-  .accomodations_container_link {
-    flex: 0;
-    margin: 0 0 3% 0;
-  }
-
-
-  .show_more {
-    margin: 25px 0;
-  }
 
   .most_popular_bloc {
     margin-top: 39px;
-    padding-bottom: 2%;
   }
 
   .most_popular_container {
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .most_popular_link {
-    margin: 0 1% 3% 0;
-    min-width: 32%
-  }
-
-  .most_popular_card {
-    width: 200px
+    margin: 5px;
+    flex: 0 1 245px;
   }
 
   .most_popular_img {
-    height: 150px;
-    min-width: 30%;
-    width: auto;
+    min-width: 70px;
+    width: 70px;
   }
 
   .most_popular_info {
-    min-width: 80%;
+    min-width: 90%;
   }
 
-  .most_popular_info i {
-    margin-top: 48%;
+  .activities_card_title {
+    padding: 10px 20px;
   }
-
 
   .activities_card_img {
     height: 200px;
