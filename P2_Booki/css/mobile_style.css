@@ -56,25 +56,11 @@
 
 
 
-.research_title {
-    margin: 4%;
+.research{
+    margin: 30px; 
 }
 
-.research_input {
-    margin: 2%;
-}
-.research_input_icon {
-  border-radius: 17px 0 0 17px;
-  font-size: 20px;
-  padding: 16px 20px;
-}
-.research_input_text {
-  border-bottom: 1px solid var(--color-page-bg);
-  border-top: 1px solid var(--color-page-bg);
-  font-size: 18px;
-  min-width: 170px;
-  padding: 15px 10px 14px;
-}
+
 .research_input_btn {
   border-radius: 0 17px 17px 0;
   padding: 0;
@@ -85,90 +71,94 @@
     font-size: 18px;
     padding: 17px;
   }
-  .btn_text {
-    display: none;
+.btn_text {
+  display: none;
   }
-.research_filters_title {
-    margin: 4% 4% 0 4%;
+
+
+
+.research_filters_list {
+  margin-left: 0;
 }
 .research_filters_cat {
-    width: 185px;
-    margin: 5px;
-}
-.research_filters_cat i {
-    font-size: 20px;
+  font-size: 11px;
+  width: 155px;
+  margin: 5px;
+  padding: 12px;
 }
 
-.research_info {
-    margin: 8% 0 0 4%
+.research_filters_cat i {
+    font-size: 18px;
+    padding-right: 8px;
 }
-.research_info i {
-    width: 25px;
-    height: 25px;
-    padding : 4px 9px;
-    margin-right: 15px;
-}
+
+
 
 .results {
     flex-direction: column-reverse;
     margin-top: 0;
 }
 
-.bloc_title {
-    padding: 0 2%;
+.most_popular_container {
+  flex-direction: column;
+  flex-wrap: wrap;
 }
-.most_popular_title {
-    padding: 0 2%;
+
+.most_popular_bloc {
+  border-radius: 0;
+  padding: 30px;
 }
+
 .most_popular_title i {
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 0;
 }
-.most_popular_bloc {
-    border-radius: 0;
-    padding-bottom: 9%;
-    padding-top: 9%;
+
+.most_popular_link {
+  margin : 5px 0;
+  flex: 1 1 auto;
 }
+
 .most_popular_img {
-    min-width: 70%;
-    margin-right: 7%;
+    min-width: 135px;
+    width: 135px;
+}
+
+.most_popular_info {
+  min-width: 65%;
 }
 
 .accomodations_bloc {
     background-color: #ffffff;
     margin-top: 26px;
+    padding: 30px;
 }
 .accomodations_container {
-    flex-flow: column wrap;
-}
-.accomodation_card_info {
-    padding: 2% 3%;
-}
-
-.card_score {
-    margin: 2% 0;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .show_more {
     display: none;
 }
+
 .activities_bloc {
-    margin-top: 100px;
+    margin: 30px;
 }
-#activities {
-    padding: 0 5%;
-  }
+
 .activities_container {
-  flex-flow: column nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 .activities_link {
-  margin: 0 0 7% 0;
+  margin: 12px;
+  max-width: none;
 }
 .activities_card_img {
-  height: 134px;
+  height: 135px;
 }
 .activities_card_title {
-  padding: 5% 0 5% 5%;
+  padding: 15px;
 }
 
 .site_footer {
