@@ -1,0 +1,24 @@
+
+//media queries//
+
+@media screen and (min-width: 769px) {
+    .restaurant {
+        &__cards {
+            display: grid;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+    }
+    .process__step {
+        width: 100%;
+    }
+    .process__steps {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    
+}
