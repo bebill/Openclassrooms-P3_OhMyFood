@@ -1,17 +1,6 @@
 @media screen and (max-width: 992px) {
 
-
-  .page_wrapper {
-    margin: 0 70px;
-  }
-
-  .research_input_text{
-    padding: 17px;
-  }
-  .btn_text {
-    padding: 18px;
-  }
-
+/* RESEARCH*/
   .research_filters_list {
     margin-left: 10px;
   }
@@ -20,50 +9,49 @@
     margin: 3px;
   }
 
+  /* RESULTS */
   .results {
     flex-direction: column;
   }
   
-  .accomodations_bloc {
-    margin-right: 0;
-  }
-
-
+  /* MOST POPULAR */
   .most_popular_bloc {
-    margin-top: 39px;
+    margin: 40px 0;
   }
 
   .most_popular_container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .most_popular_link {
-    margin: 5px;
-    flex: 0 1 245px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    column-gap: 10px;
+    max-width: none;
   }
 
   .most_popular_img {
-    min-width: 70px;
     width: 70px;
   }
 
-  .most_popular_info {
-    min-width: 90%;
-  }
 
-  .activities_card_title {
-    padding: 10px 20px;
-  }
+  /* ACTIVITES */
+.activities_bloc {
+  margin: 0 0 40px 0;
+}
 
-  .activities_card_img {
-    height: 200px;
-  }
+.activities_link {
+  width: 170px;
+}
 
-  .site_footer {
-    padding: 20px 50px;
-  }
+.activities_card_img {
+  border-radius: 20px 20px 0 0;
+  height: 200px;
+  width: 170px;
+  object-fit: cover;
+}
 
+
+/* FOOTER */
   .site_footer_item {
     padding-top: 15px;
   }

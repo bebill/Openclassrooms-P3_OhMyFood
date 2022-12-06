@@ -3,12 +3,14 @@
   .page_wrapper {
     margin: 0 !important;
   }
+
+  /* HEADER */
   .site_header {
     align-items: center;
     flex-direction: column;
   }
   .site_link {
-    padding: 21px 0 0 0;
+    padding: 20px 0 0 0;
   }
 
   .navbar {
@@ -55,21 +57,31 @@
   }
 
 
-
+/* RESEARCH */
 .research{
     margin: 30px; 
 }
 
+.research_filters {
+  display: block;
+}
+
+.research_input {
+  justify-content: center;
+}
+
+.research_input_text {
+  width: 100%;
+}
 
 .research_input_btn {
   border-radius: 0 17px 17px 0;
-  padding: 0;
+  padding: 2px;
 }
 
 .research_input_btn i {
     display: block;
-    font-size: 18px;
-    padding: 17px;
+    padding: 20px;
   }
 .btn_text {
   display: none;
@@ -79,82 +91,89 @@
 
 .research_filters_list {
   margin-left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 .research_filters_cat {
-  font-size: 11px;
-  width: 155px;
+  font-size: 9px;
   margin: 5px;
-  padding: 12px;
+  padding: 10px;
 }
 
 .research_filters_cat i {
-    font-size: 18px;
+    font-size: 9px;
     padding-right: 8px;
 }
 
 
-
+/* RESULTS */
 .results {
     flex-direction: column-reverse;
     margin-top: 0;
 }
 
-.most_popular_container {
-  flex-direction: column;
-  flex-wrap: wrap;
+.bloc_title {
+  margin: 0;
 }
 
+/* MOST POPULAR */
 .most_popular_bloc {
   border-radius: 0;
-  padding: 30px;
+  margin: 0;
 }
 
-.most_popular_title i {
-    font-size: 22px;
-    padding-top: 0;
+.most_popular_icon {
+  padding-top: 0;
 }
 
-.most_popular_link {
-  margin : 5px 0;
-  flex: 1 1 auto;
+.most_popular_container {
+display: flex;
+flex-direction: column;
 }
 
 .most_popular_img {
     min-width: 135px;
-    width: 135px;
 }
 
-.most_popular_info {
-  min-width: 65%;
-}
 
+/* ACCOMODATIONS */
 .accomodations_bloc {
     background-color: #ffffff;
-    margin-top: 26px;
-    padding: 30px;
 }
 .accomodations_container {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.accomodation_card_img {
+  height: 120px;
+  width: 100%;
 }
 
 .show_more {
     display: none;
 }
 
+
+/* ACTIVITES  */
 .activities_bloc {
-    margin: 30px;
+    padding: 20px;
 }
 
 .activities_container {
   flex-direction: column;
-  flex-wrap: nowrap;
+  align-items: center;
 }
+
 .activities_link {
-  margin: 12px;
+  width: 100%;
+  margin: 10px;
 }
 .activities_card_img {
-  height: 135px;
+  height: 120px;
+  width: 100%;
 }
 .activities_card_title {
   padding: 15px;
