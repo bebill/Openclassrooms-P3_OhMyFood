@@ -1,4 +1,4 @@
-/* -- pages_menu media queries -- */
+//media queries//
 
 @media screen and (min-width: 481px) {
     .menu {
@@ -10,16 +10,17 @@
 
     .menu__grid {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
+
     .img__image {
-            margin-top: 0;
-            height: inherit;
-        }
-    
+        margin-top: 0;
+        height: inherit;
+    }
+
     .footer {
         height: auto;
     }
-        
+
 }
