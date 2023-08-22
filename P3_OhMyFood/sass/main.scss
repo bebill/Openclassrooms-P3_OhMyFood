@@ -5,22 +5,19 @@
 @import "./base/general";
 
 
-@import "./components/buttons";
 @import "./components/heart";
 @import "./components/img";
 @import "./components/spinner";
 
 
-@import "./layouts/S1-header";
-@import "./layouts/S2-location";
-@import "./layouts/S3-hero";
-@import "./layouts/S4-process";
-@import "./layouts/S5i-restaurants";
-@import "./layouts/S5o-menus";
-@import "./layouts/S6-footer";
+@import "./layouts/header";
+@import "./layouts/location";
+@import "./layouts/hero";
+@import "./layouts/process";
+@import "./layouts/restaurants";
+@import "./layouts/menus";
+@import "./layouts/footer";
 
 
 @import "./pages/index";
 @import "./pages/order";
-
-
