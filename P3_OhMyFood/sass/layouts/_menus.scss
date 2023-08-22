@@ -22,20 +22,26 @@
     border-radius: 30px 30px 0 0;
     background-color: #F6F6F6;
 
+
     &__header {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
 
+        &__container {
+            display: flex;
+        }
+
         &__title {
             font-family: 'Shrikhand', cursive;
+            margin-right: 25px;
         }
 
         &__heart {
             @include flexbox-center;
-
         }
+
     }
 
     &__grid {
@@ -88,6 +94,7 @@
                 padding-right: 70px;
                 transition: 0.5s ease-in-out;
             }
+
             &:hover .validation__box i {
                 transform: rotate(360deg);
                 transition: .5s ease-in-out;

@@ -20,7 +20,6 @@ body {
 }
 
 .heart {
-  margin-right: 30px;
   cursor: pointer;
   font-size: 25px;
 }
@@ -325,14 +324,6 @@ header .header__logo a {
   width: 30px;
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes opacity {
   0% {
     opacity: 0;
@@ -362,8 +353,12 @@ header .header__logo a {
   align-items: center;
   justify-content: space-around;
 }
+.menu__header__container {
+  display: flex;
+}
 .menu__header__title {
   font-family: "Shrikhand", cursive;
+  margin-right: 25px;
 }
 .menu__header__heart {
   display: flex;
