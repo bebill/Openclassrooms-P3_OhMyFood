@@ -1,6 +1,17 @@
 //media queries//
 
 @media screen and (min-width: 769px) {
+    .restaurants {
+        &__title {
+            max-width: 1200px;
+            width: 100%;
+            align-self: flex-start;
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+    
     .restaurant {
         &__cards {
             display: grid;
@@ -10,15 +21,35 @@
         }
     }
 
-    .process__step {
-        width: 100%;
+
+    .process {
+        &__title {
+            max-width: 1200px;
+            width: 100%;
+            align-self: flex-start;
+            margin: auto;
+            margin-top: 50px;
+        }
+        &__step {
+            width: 100%;
+        }
+    
+        &__steps {
+            width: 40%;
+        }
     }
 
-    .process__steps {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 40%;
+    .process__container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
+
+
+    .footer {
+        &__bloc {
+            max-width: 1200px;
+        }
     }
 
 
