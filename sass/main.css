@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   margin: auto;
   background: #f6f6f6;
-  max-width: 1300px;
 }
 
 * a {
@@ -73,7 +72,6 @@ body {
   position: fixed;
   height: 100%;
   width: 100%;
-  max-width: 1300px;
   border-radius: 0;
   display: flex;
   flex-direction: row;
@@ -572,20 +570,40 @@ header .header__logo a {
 }
 
 @media screen and (min-width: 769px) {
+  .restaurants__title {
+    max-width: 1200px;
+    width: 100%;
+    align-self: flex-start;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   .restaurant__cards {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
   }
+  .process__title {
+    max-width: 1200px;
+    width: 100%;
+    align-self: flex-start;
+    margin: auto;
+    margin-top: 50px;
+  }
   .process__step {
     width: 100%;
   }
   .process__steps {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     width: 40%;
+  }
+  .process__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+  .footer__bloc {
+    max-width: 1200px;
   }
 }
 @media screen and (min-width: 481px) {
@@ -598,6 +616,8 @@ header .header__logo a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+    max-width: 1200px;
+    margin: auto;
   }
   .img__image {
     margin-top: 0;
